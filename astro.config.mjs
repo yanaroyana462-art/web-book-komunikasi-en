@@ -9,16 +9,9 @@ export default defineConfig({
         './src/styles/custom.css',
       ],
       defaultLocale: 'root',
-      // Tambahkan link ke versi Indonesia di sini:
-      social: [
-        { 
-          icon: 'translate', 
-          label: 'Versi Bahasa Indonesia', 
-          href: 'https://my-book-komunikasi.vercel.app/' // <-- Ganti dengan URL web versi Indonesia Mas Yana
-        },
-      ],
       components: {
         Footer: './src/components/CustomFooter.astro',
+        SocialIcons: './src/components/LanguageSwitch.astro',
       },
       sidebar: [
         {
