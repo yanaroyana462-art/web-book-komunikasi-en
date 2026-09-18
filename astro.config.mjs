@@ -39,7 +39,7 @@ export default defineConfig({
         {
           label: 'Part 3: Special Scenarios',
           items: [
-            { label: 'Chapter 8: Leadership & Strategy', slug: 'chapter-8--leadership--strategic-communication' },
+            { label: 'Chapter 8: Leadership & Strategy', slug: 'chapter-8-leadership--strategic-communication' },
             { label: 'Chapter 9: In Crisis, War & High Pressure', slug: 'chapter-9-in-crisis-war--high-pressure' },
             { label: 'Chapter 10: Delivering Criticism', slug: 'chapter-10-delivering-criticism--correcting-mistakes' },
           ],
