@@ -8,14 +8,10 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css',
       ],
-      social: {
-        'bahasa-indonesia': {
-          label: 'Versi Bahasa Indonesia',
-          link: 'https://my-book-komunikasi.vercel.app/',
-          icon: 'translate',
-        },
-      },
       defaultLocale: 'root',
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/yanaroyana462-art/web-book-komunikasi-en' },
+      ],
       components: {
         Footer: './src/components/CustomFooter.astro',
       },
