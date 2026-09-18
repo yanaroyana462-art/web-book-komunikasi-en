@@ -8,6 +8,13 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css',
       ],
+      social: {
+        'bahasa-indonesia': {
+          label: 'Versi Bahasa Indonesia',
+          link: 'https://my-book-komunikasi.vercel.app/',
+          icon: 'translate',
+        },
+      },
       defaultLocale: 'root',
       components: {
         Footer: './src/components/CustomFooter.astro',
