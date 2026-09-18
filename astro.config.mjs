@@ -4,9 +4,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Komunikasi Efektif ala Nabi',
+      title: 'Prophetic Communication',
       customCss: [
-        './src/styles/custom.css', // <-- Tambahkan baris ini!
+        './src/styles/custom.css',
       ],
       defaultLocale: 'root',
       components: {
@@ -14,34 +14,40 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'Pendahuluan',
+          label: 'Introduction',
           items: [
-            { label: 'Pengantar', slug: 'pengantar' },
+            { label: 'Introduction & How to Use', slug: 'pengantar' },
           ],
         },
         {
-          label: 'Bagian 1: Fondasi & Etika Lisan',
+          label: 'Part 1: Foundations & Speech Ethics',
           items: [
-            { label: 'Bab 1: Prinsip Qaulan', slug: 'bab-1-prinsip-qaulan' },
-            { label: 'Bab 2: Seni Mendengar', slug: 'bab-2-active-listening' },
-            { label: 'Bab 3: Gestur & Bahasa Tubuh', slug: 'bab-3-bahasa-tubuh' },
-            { label: 'Bab 4: Dalam Rumah & Keluarga', slug: 'bab-4-keluarga' },
+            { label: 'Chapter 1: The Qaulan Principles', slug: 'bab-1-prinsip-qaulan' },
+            { label: 'Chapter 2: The Art of Active Listening', slug: 'bab-2-active-listening' },
+            { label: 'Chapter 3: Body Language & Non-Verbal Cues', slug: 'bab-3-bahasa-tubuh' },
+            { label: 'Chapter 4: Within Family & Home', slug: 'bab-4-keluarga' },
           ],
         },
         {
-          label: 'Bagian 2: Berdasarkan Audiens',
+          label: 'Part 2: Audience-Based Communication',
           items: [
-            { label: 'Bab 5: Sahabat & Tim Kerja', slug: 'bab-5-sahabat' },
-            { label: 'Bab 6: Masyarakat & Orang Awam', slug: 'bab-6-masyarakat' },
-            { label: 'Bab 7: Musuh & Oposisi', slug: 'bab-7-musuh-oposisi' },
+            { label: 'Chapter 5: Companions & Work Teams', slug: 'bab-5-sahabat' },
+            { label: 'Chapter 6: Society & The General Public', slug: 'bab-6-masyarakat' },
+            { label: 'Chapter 7: Adversaries & Oppositions', slug: 'bab-7-musuh-oposisi' },
           ],
         },
         {
-          label: 'Bagian 3: Situasi Khusus',
+          label: 'Part 3: Special Scenarios',
           items: [
-            { label: 'Bab 8: Kepemimpinan & Strategi', slug: 'bab-8-kepemimpinan' },
-            { label: 'Bab 9: Dalam Krisis & Perang', slug: 'bab-9-krisis-perang' },
-            { label: 'Bab 10: Kritik & Evaluasi', slug: 'bab-10-kritik-evaluasi' },
+            { label: 'Chapter 8: Leadership & Strategy', slug: 'bab-8-kepemimpinan' },
+            { label: 'Chapter 9: In Crisis & High Pressure', slug: 'bab-9-krisis-perang' },
+            { label: 'Chapter 10: Delivering Criticism & Evaluation', slug: 'bab-10-kritik-evaluasi' },
+          ],
+        },
+        {
+          label: 'Back Matter',
+          items: [
+            { label: 'References & Bibliography', slug: 'referensi' },
           ],
         },
       ],
