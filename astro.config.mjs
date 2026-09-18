@@ -9,8 +9,13 @@ export default defineConfig({
         './src/styles/custom.css',
       ],
       defaultLocale: 'root',
+      // Tambahkan link ke versi Indonesia di sini:
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/yanaroyana462-art/web-book-komunikasi-en' },
+        { 
+          icon: 'translate', 
+          label: 'Versi Bahasa Indonesia', 
+          href: 'https://my-book-komunikasi.vercel.app/' // <-- Ganti dengan URL web versi Indonesia Mas Yana
+        },
       ],
       components: {
         Footer: './src/components/CustomFooter.astro',
